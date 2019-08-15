@@ -1,6 +1,6 @@
 def countdown_with_sleep(countdown)
   n = countdown
-  while n > -1 do
+  while n > 0 do
     puts "#{n} SECOND(S)!"
     n -= 1 
     sleep(1)
@@ -11,7 +11,7 @@ end
 
 def countdown(time_in_seconds)
   n = time_in_seconds
-  while n > -1 do
+  while n > 0 do
     puts "#{n} SECOND(S)!"
     n -= 1 
   end
